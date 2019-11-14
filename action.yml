@@ -1,0 +1,9 @@
+# action.yml
+name: "generate name"
+description: "generates a unique (username-like) name"
+outputs:
+  name:
+    description: "generated name"
+runs:
+  using: "docker"
+  image: "Dockerfile"
